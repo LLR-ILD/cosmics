@@ -1,0 +1,6 @@
+cosmics:
+  name: Run_ILC_08042020_cosmic_it15_Ascii_build
+  #name: Run_ILC_08172020_Cosmics_48h_Ascii_build
+  server: llrgate01.in2p3.fr
+  folder: /data_ilc/flc/ECAL/cosmics/tb2020
+  type: v0-root

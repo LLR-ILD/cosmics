@@ -1,0 +1,15 @@
+awkward
+black
+flake8
+jupyter
+matplotlib
+numexpr
+numpy
+pandas
+plotly
+pre-commit
+pyarrow
+pytest
+scipy
+tqdm
+uproot>=4.0
