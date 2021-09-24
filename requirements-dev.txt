@@ -8,6 +8,7 @@ numpy
 pandas
 plotly
 pre-commit
+psutil
 pyarrow
 pytest
 scipy

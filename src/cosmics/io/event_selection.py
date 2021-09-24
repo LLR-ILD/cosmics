@@ -37,7 +37,7 @@ class LoadTriggered:
         triggered_file_folder: Union[str, Path],
         root_file: Union[str, Path],
         root_tree: str,
-        step_size: str = "250 MB",
+        step_size: str = "100 MB",
     ) -> None:
         self._triggered_file_folder = Path(triggered_file_folder)
         self._root_file = Path(root_file)
@@ -117,7 +117,7 @@ class LoadTriggered:
         self,
         trigger: str,
         entry_stop: int = -1,
-    ) -> None:
+    ) -> ak.Array:
         trigger_cleaned = trigger = "".join(trigger.split())  # Remove whitespace.
         file_stem = f"{self.trigger_to_filename(trigger_cleaned)}.parquet"
         filename = self._triggered_file_folder / file_stem
